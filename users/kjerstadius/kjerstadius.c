@@ -18,6 +18,7 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 #include "kjerstadius.h"
 
 
+/*
 enum unicode_names {
     ADIARESIS_LC,
     ADIARESIS_UC,
@@ -35,6 +36,7 @@ const uint32_t PROGMEM unicode_map[] = {
     [ODIARESIS_LC] = 0xf6, // ö
     [ODIARESIS_UC] = 0xd6, // Ö
 };
+*/
 
 
 __attribute__((weak)) layer_state_t layer_state_set_keymap(layer_state_t state) { return state; }
