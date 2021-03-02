@@ -38,6 +38,10 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 #define HOME_L LGUI_T(KC_L)
 #define HOME_SCLN LALT_T(KC_SCLN)
 
+// Home row layers
+#define HOME_G LT(_LOWER, KC_G)
+#define HOME_H LT(_RAISE, KC_H)
+
 // Layers
 #define COLEMAK DF(_COLEMAK)
 #define GAMING DF(_GAMING)
@@ -55,7 +59,7 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 #define LAYER_GAMING3 KC_Z, KC_X, KC_C, KC_V, KC_B, KC_N, KC_M, KC_COMM, KC_DOT, KC_SLSH
 
 #define LAYER_QWERTY1 KC_Q, KC_W, KC_E, KC_R, KC_T, KC_Y, KC_U, KC_I, KC_O, KC_P, KC_LBRC, KC_RBRC
-#define LAYER_QWERTY2 HOME_A, HOME_S, HOME_D, HOME_F, KC_G, KC_H, HOME_J, HOME_K, HOME_L, HOME_SCLN, KC_QUOT
+#define LAYER_QWERTY2 HOME_A, HOME_S, HOME_D, HOME_F, HOME_G, HOME_H, HOME_J, HOME_K, HOME_L, HOME_SCLN, KC_QUOT
 #define LAYER_QWERTY3 KC_Z, KC_X, KC_C, KC_V, KC_B, KC_N, KC_M, KC_COMM, KC_DOT, KC_SLSH
 
 #define LAYER_SWERTY1 KC_Q, KC_W, KC_E, KC_R, KC_T, KC_Y, KC_U, KC_I, KC_O, KC_P, KC_ARING, KC_RBRC
