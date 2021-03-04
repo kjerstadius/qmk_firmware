@@ -18,6 +18,7 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 #pragma once
 
 #include "process_records.h"
+#include "tap_dances.h"
 #include QMK_KEYBOARD_H
 
 
@@ -47,6 +48,9 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 #define GAMING DF(_GAMING)
 #define QWERTY DF(_QWERTY)
 #define SWERTY DF(_SWERTY)
+
+// Tap dances
+#define TD_SPACE TD(_TD_SPACE)
 
 
 // Alpha layers
@@ -101,4 +105,8 @@ enum kjerstadius_layers {
     _RAISE,
     _LOWER,
     _ADJUST
+};
+
+enum tap_dance_keys {
+     _TD_SPACE
 };

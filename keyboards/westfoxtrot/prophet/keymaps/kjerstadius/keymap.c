@@ -28,7 +28,7 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
         KC_TBLW, K11, K12, K13, K14, K15, K16, K17, K18, K19, K1A, K1B, K1C, KC_BSPC, \
         KC_DCTL, K21, K22, K23, K24, K25, K26, K27, K28, K29, K2A, K2B, KC_ENT, \
         KC_LSPO, KC_NO, K31, K32, K33, K34, K35, K36, K37, K38, K39, K3A, KC_RSPC, MO(_RAISE), \
-        KC_NO, KC_LGUI, KC_LALT, LT(_NUMSYM, KC_SPC), KC_RALT, KC_RGUI, KC_NO \
+        KC_NO, KC_LGUI, KC_LALT, TD_SPACE, KC_RALT, KC_RGUI, KC_NO \
     )
 
 #define LAYOUT_prophet_hhkb_wrapper(...) LAYOUT_prophet_hhkb(__VA_ARGS__)
