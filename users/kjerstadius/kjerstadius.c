@@ -39,10 +39,14 @@ const uint32_t PROGMEM unicode_map[] = {
 */
 
 
-__attribute__((weak)) layer_state_t layer_state_set_keymap(layer_state_t state) { return state; }
+__attribute__((weak)) layer_state_t layer_state_set_keymap(layer_state_t state)
+{
+    return state;
+}
 
-layer_state_t layer_state_set_user(layer_state_t state) {
+layer_state_t layer_state_set_user(layer_state_t state)
+{
     if (!is_keyboard_master()) { return state; }
 
     return update_tri_layer_state(state, _RAISE, _LOWER, _ADJUST);
-};
+}

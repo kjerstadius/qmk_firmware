@@ -16,8 +16,10 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 */
 
 #include "tap_dances.h"
-#include "kjerstadius.h"
+#include "keys.h"
+#include "layers.h"
 
+#include QMK_KEYBOARD_H
 
 static uint8_t space_tap_action = 0;
 
