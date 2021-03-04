@@ -34,6 +34,7 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 #define HOME_K RSFT_T(KC_K)
 #define HOME_L LGUI_T(KC_L)
 #define HOME_SCLN LALT_T(KC_SCLN)
+#define HOME_QUOT RALT_T(KC_QUOT)
 
 // Home row layers
 #define HOME_G LT(_LOWER, KC_G)
