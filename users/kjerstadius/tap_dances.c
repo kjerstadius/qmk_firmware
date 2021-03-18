@@ -27,7 +27,7 @@ static uint8_t space_tap_action = 0;
 uint8_t get_dance_action(qk_tap_dance_state_t* state)
 {
     uint8_t is_held = 1;
-    if (state->interrupted || !state->pressed) {
+    if (!state->pressed) {
         is_held = 0;
     }
 
