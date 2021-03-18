@@ -42,9 +42,10 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 
 // Layer "keycodes"
 #define COLEMAK DF(_COLEMAK)
-#define GAMING DF(_GAMING)
-#define QWERTY DF(_QWERTY)
-#define SWERTY DF(_SWERTY)
+#define ISRT    DF(_ISRT)
+#define GAMING  DF(_GAMING)
+#define QWERTY  DF(_QWERTY)
+#define SWERTY  DF(_SWERTY)
 
 // Tap dances
 #define TD_SPACE TD(_TD_SPACE)

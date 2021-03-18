@@ -22,6 +22,10 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 #define LAYER_COLEMAK2 KC_A, KC_R, KC_S, KC_T, KC_G, KC_M, KC_N, KC_E, KC_I, KC_O, KC_QUOT
 #define LAYER_COLEMAK3 KC_X, KC_C, KC_D, KC_V, KC_Z, KC_K, KC_H, KC_COMM, KC_DOT, KC_SLSH
 
+#define LAYER_ISRT1 KC_Y, KC_C, KC_L, KC_M, KC_K, KC_Z, KC_F, KC_U, KC_COMM, KC_QUOT, KC_LBRC, KC_RBRC
+#define LAYER_ISRT2 KC_I, KC_S, KC_R, KC_T, KC_G, KC_P, KC_N, KC_E, KC_A, KC_O, KC_SCLN
+#define LAYER_ISRT3 KC_Q, KC_V, KC_W, KC_D, KC_J, KC_B, KC_H, KC_SLSH, KC_DOT, KC_X
+
 #define LAYER_GAMING1 KC_Q, KC_W, KC_E, KC_R, KC_T, KC_Y, KC_U, KC_I, KC_O, KC_P, KC_LBRC, KC_RBRC
 #define LAYER_GAMING2 KC_A, KC_S, KC_D, KC_F, KC_G, KC_H, KC_J, KC_K, KC_L, KC_SCLN, KC_QUOT
 #define LAYER_GAMING3 KC_Z, KC_X, KC_C, KC_V, KC_B, KC_N, KC_M, KC_COMM, KC_DOT, KC_SLSH
@@ -46,7 +50,7 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 #define LAYER_LOWER3 KC_NO, KC_NO, KC_NO, KC_NO, KC_NO, KC_PGDN, KC_DOWN, KC_1, KC_2, KC_3
 
 #define LAYER_ADJUST1 KC_ASRP, KC_NO, KC_NO, RESET, KC_NO, KC_NO, KC_NO, KC_NO, KC_NO, QWERTY, SWERTY, GAMING
-#define LAYER_ADJUST2 KC_ASON, KC_ASOFF, KC_NO, KC_NO, KC_NO, KC_NO, KC_NO, KC_NO, KC_NO, COLEMAK, KC_NO
+#define LAYER_ADJUST2 KC_ASON, KC_ASOFF, KC_NO, KC_NO, KC_NO, KC_NO, KC_NO, KC_NO, KC_NO, COLEMAK, ISRT
 #define LAYER_ADJUST3 KC_ASDN, KC_ASUP, KC_NO, VRSN, KC_NO, KC_NO, KC_NO, KC_NO, KC_NO, KC_NO
 
 /*
@@ -63,6 +67,7 @@ enum kjerstadius_layers {
     _QWERTY = 0,
     _SWERTY,
     _COLEMAK,
+    _ISRT,
     _GAMING,
 
     _NUMSYM,

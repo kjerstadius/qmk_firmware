@@ -77,6 +77,12 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
       LAYER_COLEMAK2,
       LAYER_COLEMAK3),
 
+  [_ISRT] = LAYOUT_prophet_hhkb_wrapper(
+      LAYER_NUM_ROW,
+      LAYER_ISRT1,
+      LAYER_ISRT2,
+      LAYER_ISRT3),
+
   [_GAMING] = LAYOUT_prophet_all_wrapper(
       KC_ESC, LAYER_NUM_ROW, KC_MINS, KC_EQL, KC_BSLS, KC_DEL,
       KC_TBLW, LAYER_GAMING1, KC_BSPC,
