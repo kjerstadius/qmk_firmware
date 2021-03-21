@@ -55,11 +55,11 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 
 /*
  *  1 2 3 4 5 6 7 8 9 0
- *  ( ) ~ - = * _ $ | \ +
+ *  ( ) ~ - = * _ $ \ | +
  *   ! # { } & ^ [ ] % @
  */
 #define LAYER_NUMSYM1 KC_1, KC_2, KC_3, KC_4, KC_5, KC_6, KC_7, KC_8, KC_9, KC_0, KC_NO, KC_NO
-#define LAYER_NUMSYM2 KC_LPRN, KC_RPRN, KC_TILDE, KC_MINS, KC_EQL, KC_ASTR, KC_UNDS, KC_DLR, KC_PIPE, KC_BSLS, KC_PLUS
+#define LAYER_NUMSYM2 KC_LPRN, KC_RPRN, KC_TILDE, KC_MINS, KC_EQL, KC_ASTR, KC_UNDS, KC_DLR, KC_BSLS, KC_PIPE, KC_PLUS
 #define LAYER_NUMSYM3 KC_EXLM, KC_HASH, KC_LCBR, KC_RCBR, KC_AMPR, KC_CIRC, KC_LBRC, KC_RBRC, KC_PERC, KC_AT
 
 
