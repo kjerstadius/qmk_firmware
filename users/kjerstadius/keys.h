@@ -42,6 +42,7 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 
 // Layer "keycodes"
 #define COLEMAK DF(_COLEMAK)
+#define HDALT   DF(_HDALT)
 #define ISRT    DF(_ISRT)
 #define GAMING  DF(_GAMING)
 #define QWERTY  DF(_QWERTY)
