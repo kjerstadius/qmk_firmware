@@ -96,3 +96,13 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
       KC_LSFT, KC_NO, LAYER_GAMING3, KC_RSFT, MO(_RAISE),
       KC_NO, KC_LGUI, KC_LALT, KC_SPC, KC_RALT, KC_RGUI, KC_NO)
 };
+
+const uint16_t PROGMEM ae_combo[] = {KC_A, KC_E, COMBO_END};
+const uint16_t PROGMEM ao_combo[] = {KC_A, KC_O, COMBO_END};
+const uint16_t PROGMEM oe_combo[] = {KC_E, KC_O, COMBO_END};
+
+combo_t key_combos[COMBO_COUNT] = {
+    [SWE_AE] = COMBO(ae_combo, RALT(KC_A)),
+    [SWE_AA] = COMBO(ao_combo, RALT(KC_W)),
+    [SWE_OE] = COMBO(oe_combo, RALT(KC_O))
+};

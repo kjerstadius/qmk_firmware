@@ -17,8 +17,11 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 
 #pragma once
 
-#include "combos.h"
-#include "keys.h"
-#include "layers.h"
-#include "process_records.h"
-#include "tap_dances.h"
+#include QMK_KEYBOARD_H
+
+
+enum combos {
+    SWE_AE,
+    SWE_AA,
+    SWE_OE
+};
