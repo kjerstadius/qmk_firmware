@@ -23,7 +23,7 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 #define LAYER_COLEMAK3 KC_X, KC_C, KC_D, KC_V, KC_Z, KC_K, KC_H, KC_COMM, KC_DOT, KC_SLSH
 
 #define LAYER_HDALT1 KC_W, KC_G, KC_H, KC_M, KC_K, KC_Q, KC_C, KC_U, KC_J, KC_QUOT, KC_LBRC, KC_RBRC
-#define LAYER_HDALT2 KC_R, KC_S, KC_N, KC_T, KC_F, KC_Y, KC_A, KC_E, KC_O, KC_I, KC_SCLN
+#define LAYER_HDALT2 LALT_T(KC_R), LGUI_T(KC_S), LSFT_T(KC_N), LCTL_T(KC_T), LT(_LOWER, KC_F), LT(_RAISE, KC_Y), RCTL_T(KC_A), RSFT_T(KC_E), RGUI_T(KC_O), LALT_T(KC_I), RALT_T(KC_SCLN)
 #define LAYER_HDALT3 KC_X, KC_B, KC_L, KC_D, KC_V, KC_Z, KC_P, KC_COMM, KC_DOT, KC_SLSH
 
 #define LAYER_ISRT1 KC_Y, KC_C, KC_L, KC_M, KC_K, KC_Z, KC_F, KC_U, KC_COMM, KC_QUOT, KC_LBRC, KC_RBRC
