@@ -21,7 +21,12 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 
 
 enum combos {
+    COPY,
+    CUT,
+    ESC,
+    PASTE,
     SWE_AE,
     SWE_AA,
-    SWE_OE
+    SWE_OE,
+    UNDO
 };
